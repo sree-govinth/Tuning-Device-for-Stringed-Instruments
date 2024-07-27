@@ -25,6 +25,7 @@ void setup() {
   lcd.backlight(); // Turn on the backlight
   lcd.print("RVU GUITAR TUNER"); // Initial message
   delay(2000); // Display initial message for 2 seconds
+  lcd.clear();
   lcd.print("PLAY A STRING");
 }
 
